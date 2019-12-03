@@ -1,9 +1,19 @@
 <template>
-  <div>home</div>
+  <div>
+    <Header></Header>
+  </div>
 </template>
 
 <script>
-export default {}
+import Header from 'components/Header/Header'
+export default {
+  components: {
+    Header
+  },
+  data() {
+    return {}
+  }
+}
 </script>
 
 <style lang="less" scoped>

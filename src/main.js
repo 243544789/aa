@@ -4,6 +4,8 @@ import router from './router'
 import store from './store'
 import './assets/styles/reset.css'
 import './assets/styles/border.css'
+import 'amfe-flexible/index.js'
+import './plugins/vant.js'
 Vue.config.productionTip = false
 
 new Vue({
